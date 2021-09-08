@@ -31,10 +31,30 @@
   list-style: none;
 }
 
+.Weather img {
+  margin-bottom: 35px;
+  height: 64px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 64px;
+}
+
 .Weather .temperature {
+  margin-top: 60px;
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 50px;
-  line-height: 64px;
+  font-size: 64px;
+
   font-weight: 400;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -32px;
+  line-height: 1;
+
+  margin-left: 5px;
 }
