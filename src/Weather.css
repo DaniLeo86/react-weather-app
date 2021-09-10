@@ -36,12 +36,8 @@
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 64px;
-  margin-left: 60px;
+  margin-left: 20px;
   font-weight: 400;
-}
-
-.Weather canvas {
-  margin-right: 60px;
 }
 
 .Weather .unit {
@@ -51,4 +47,8 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+.Weather .float-left {
+  float: left;
 }
